@@ -5,7 +5,9 @@ set(SRC
 	cnn_3dmm_expr.cpp
 	face_renderer.cpp
 	face_swap.cpp
-	utilities.cpp	
+	utilities.cpp
+        kcftracker.cpp
+        fhog.cpp	
 )
 set(HDR
 	face_swap/basel_3dmm.h
@@ -14,6 +16,12 @@ set(HDR
 	face_swap/face_renderer.h
 	face_swap/face_swap.h
 	face_swap/utilities.h
+        face_swap/tracker.h
+        face_swap/recttools.hpp
+        face_swap/labdata.hpp
+        face_swap/kcftracker.hpp
+        face_swap/fhog.hpp
+        face_swap/ffttools.hpp
 )
 
 # Target
