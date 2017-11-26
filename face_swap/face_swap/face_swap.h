@@ -16,7 +16,7 @@
 #include <dlib/image_processing/shape_predictor.h>
 
 // KCF Tracker
-#include <kcftracker.hpp>
+#include "kcftracker.hpp"
 
 namespace face_swap
 {
