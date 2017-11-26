@@ -81,11 +81,11 @@ the use of this software, even if advised of the possibility of such damage.
  */
 
 #ifndef _KCFTRACKER_HEADERS
-#include "kcftracker.hpp"
-#include "ffttools.hpp"
-#include "recttools.hpp"
-#include "fhog.hpp"
-#include "labdata.hpp"
+#include "face_swap/kcftracker.hpp"
+#include "face_swap/ffttools.hpp"
+#include "face_swap/recttools.hpp"
+#include "face_swap/fhog.hpp"
+#include "face_swap/labdata.hpp"
 #endif
 
 // Constructor
